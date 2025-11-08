@@ -1,21 +1,33 @@
 {
   "name": "roblox-api-proxy",
   "version": "1.0.0",
-  "description": "Custom proxy server for Roblox API requests",
-  "main": "server.js",
+  "description": "Proxy server for Roblox API requests",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "axios": "^1.6.0",
     "cors": "^2.8.5"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   }
 }
+```
+
+---
+
+## Complete Render.com Setup
+
+Since you're using Render, here's the full setup:
+
+### 1. File Structure
+
+Make sure you have these files:
+```
+your-project/
+├── server.js          (or index.js - pick one!)
+├── package.json
+└── .gitignore
