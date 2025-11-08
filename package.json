@@ -15,19 +15,3 @@
     "node": ">=18.0.0"
   }
 }
-```
-
----
-
-## Complete Render.com Setup
-
-Since you're using Render, here's the full setup:
-
-### 1. File Structure
-
-Make sure you have these files:
-```
-your-project/
-├── server.js          (or index.js - pick one!)
-├── package.json
-└── .gitignore
